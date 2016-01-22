@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScrollTextView.h"
 
 @interface ViewController : UIViewController
 

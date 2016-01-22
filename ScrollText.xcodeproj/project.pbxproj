@@ -13,6 +13,7 @@
 		F3B9DE871BD8B19300A0AD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B9DE851BD8B19300A0AD15 /* Main.storyboard */; };
 		F3B9DE891BD8B19300A0AD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B9DE881BD8B19300A0AD15 /* Assets.xcassets */; };
 		F3B9DE8C1BD8B19300A0AD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B9DE8A1BD8B19300A0AD15 /* LaunchScreen.storyboard */; };
+		F3B9DE951BD8B1EA00A0AD15 /* ScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9DE941BD8B1EA00A0AD15 /* ScrollTextView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F3B9DE881BD8B19300A0AD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B9DE8B1BD8B19300A0AD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B9DE8D1BD8B19300A0AD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B9DE931BD8B1EA00A0AD15 /* ScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTextView.h; sourceTree = "<group>"; };
+		F3B9DE941BD8B1EA00A0AD15 /* ScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F3B9DE801BD8B19300A0AD15 /* AppDelegate.m */,
 				F3B9DE821BD8B19300A0AD15 /* ViewController.h */,
 				F3B9DE831BD8B19300A0AD15 /* ViewController.m */,
+				F3B9DE931BD8B1EA00A0AD15 /* ScrollTextView.h */,
+				F3B9DE941BD8B1EA00A0AD15 /* ScrollTextView.m */,
 				F3B9DE851BD8B19300A0AD15 /* Main.storyboard */,
 				F3B9DE881BD8B19300A0AD15 /* Assets.xcassets */,
 				F3B9DE8A1BD8B19300A0AD15 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				F3B9DE841BD8B19300A0AD15 /* ViewController.m in Sources */,
 				F3B9DE811BD8B19300A0AD15 /* AppDelegate.m in Sources */,
+				F3B9DE951BD8B1EA00A0AD15 /* ScrollTextView.m in Sources */,
 				F3B9DE7E1BD8B19300A0AD15 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
